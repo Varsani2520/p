@@ -1,0 +1,56 @@
+{
+  "message": "home fetch sucessfully",
+  "services": [
+    {
+      "id": 1,
+      "title": "Modern Living Room Design",
+      "image": "https://avatars.mds.yandex.net/i?id=97199f5a01f0ad90fccd514b653f87eb966bf84e-8710632-images-thumbs&n=13",
+      "rating": 4.5,
+      "description": "",
+      "provider_id": 1,
+      "price": "600$"
+    },
+    {
+      "id": 2,
+      "title": "Bedroom Design",
+      "image": " https://avatars.mds.yandex.net/i?id=aba4a381fd2c8b5e7f02748f3c8b66bc1dbadf30-10105725-images-thumbs&n=13",
+      "rating": 4.8,
+      "provider_id": 1,"price": "600$"
+    },
+    {
+      "id": 3,
+      "title": " Kitchen Design",
+      "image": "https://avatars.mds.yandex.net/i?id=56f8457ff72f77222974b5148aac5311755154f7-10933600-images-thumbs&n=13",
+      "rating": 4.7,
+      "provider_id": 1,"price": "600$"
+    },
+    {
+      "id": 4,
+      "title": "Bathroom Room Design",
+      "image": "https://avatars.mds.yandex.net/i?id=d6ba9c1bd6ec5e39d1e41d43db699a3fd9798037-9182192-images-thumbs&n=13",
+      "rating": 4.5,
+      "provider_id": 1,"price": "600$"
+    },
+    {
+      "id": 5,
+      "title": "Home Office Design",
+      "image": "https://avatars.mds.yandex.net/i?id=20da10b332a27f72b13fdd9a63ddc3e850ee10b0-9856775-images-thumbs&n=13",
+      "rating": 4.8,
+      "provider_id": 1,"price": "600$"
+    },
+    {
+      "id": 6,
+      "title": "Child room Design",
+      "image": "https://avatars.mds.yandex.net/i?id=c4bd4f670a54c6d1eb943697ee3855d06c4c4c16-10702804-images-thumbs&n=13",
+      "rating": 4.7,
+      "provider_id": 1,"price": "600$"
+    },
+    {
+      "id": 7,
+      "title": "furniture ",
+      "image": "https://avatars.mds.yandex.net/i?id=99b55d1b69cd72bed7749fbfd7e6e7eb-4884345-images-thumbs&n=13",
+      "rating": 4.7,
+      "provider_id": 1,"price": "600$"
+    }
+  ]
+}

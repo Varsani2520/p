@@ -1,7 +1,16 @@
-export default function Home() {
+"use client";
+
+import HomeCard from "./components/HomeCard";
+import SwiperHome from "./components/SwiperHome";
+
+export default  function Home() {
+  
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      e-commerce website
-    </main>
+    <div className="top-0 left-0 justify-center items-center flex bg-white">
+      <div className="max-w-screen-xl  items-center justify-between  p-4">
+        <SwiperHome />
+        <HomeCard/>
+      </div>
+    </div>
   );
 }

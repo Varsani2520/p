@@ -1,0 +1,48 @@
+{
+  "message": "hospital fetch sucessfully",
+  "services": [
+    {
+      "id": 1,
+      "title":"",
+      "image": "https://avatars.mds.yandex.net/i?id=31f5a5cc06a06c01209691c85c144f366d9b354a-9284609-images-thumbs&n=13",
+      "rating": 4.5,
+      "description": "",
+      "provider_id": 5,"price": "600$"
+    },
+    {
+      "id": 2,
+      "title": "Public spaces design",
+      "image": " https://avatars.mds.yandex.net/i?id=d42bbc67720530a4d172cb9aadcc6e79c5253a77-9181440-images-thumbs&n=13",
+      "rating": 4.8,
+      "provider_id": 5,"price": "600$"
+    },
+    {
+      "id": 3,
+      "title": " Reception Area Design",
+      "image": "https://avatars.mds.yandex.net/i?id=6238ef8102ae548b2f893542e1d2524aa1b85032-8360281-images-thumbs&n=13",
+      "rating": 4.7,
+      "provider_id": 5,"price": "600$"
+    },
+    {
+      "id": 4,
+      "title": "Clinical spaces Design",
+      "image": "https://avatars.mds.yandex.net/i?id=a456f42f88eca04555d5780195a395ecfe18f9d2-7552276-images-thumbs&n=13",
+      "rating": 4.5,
+      "provider_id": 5,"price": "600$"
+    },
+    {
+      "id": 5,
+      "title": "Support space Design",
+      "image": "https://avatars.mds.yandex.net/i?id=764e872d54caab468cedcfc7f476baaafbc143ae-9099806-images-thumbs&n=13",
+      "rating": 4.8,
+      "provider_id": 5,"price": "600$"
+    },
+    {
+      "id": 6,
+      "title": "furniture selection",
+      "image": "https://avatars.mds.yandex.net/i?id=31270a163b76cfd0891424ff399ddbd77c70688c-9151562-images-thumbs&n=13",
+      "rating": 4.7,
+      "provider_id": 5,"price": "600$"
+    }
+  ]
+}

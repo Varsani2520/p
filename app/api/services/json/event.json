@@ -1,0 +1,57 @@
+{
+    "message": "event fetch sucessfully",
+    "services": [
+      {
+        "id": 1,
+        "title": "Meeting Room Design",
+        "image": "https://avatars.mds.yandex.net/i?id=2cd279888a05eb4b47ff2dfcf8cb4256f04d0072-10272338-images-thumbs&n=13",
+        "rating": 4.5,
+        
+        "description": "",
+        "provider_id": 9,"price": "600$"
+      },
+      {
+        "id": 2,
+        "title": "lighting design",
+        "image": " https://avatars.mds.yandex.net/i?id=041b1916204d6f717ebcaac3756cce99c7bdf23d-10469104-images-thumbs&n=13",
+        "rating": 4.8,
+        "provider_id": 9,"price": "600$"
+      },
+      {
+        "id": 3,
+        "title": " Reception Area Design",
+        "image": "https://avatars.mds.yandex.net/i?id=ed9131673376361c5c38efe338e9614ce2ed8b8c-8264494-images-thumbs&n=13",
+        "rating": 4.7,
+        "provider_id": 9,"price": "600$"
+      },
+      {
+        "id": 4,
+        "title": "Break Room Design",
+        "image": "https://avatars.mds.yandex.net/i?id=a30645b71b89eafb2e897010747f881d-5480599-images-thumbs&n=13",
+        "rating": 4.5,
+        "provider_id": 9,"price": "600$"
+      },
+      {
+        "id": 5,
+        "title": "Workspace Design",
+        "image": "https://avatars.mds.yandex.net/i?id=e801884df892a6c1026b90d289f586126c8d0b30-8370469-images-thumbs&n=13",
+        "rating": 4.8,
+        "provider_id": 9,"price": "600$"
+      },
+      {
+        "id": 6,
+        "title": "furniture selection",
+        "image": "https://avatars.mds.yandex.net/i?id=422a2b13319873d54c92698a4f790fb556b5fb73-9228658-images-thumbs&n=13",
+        "rating": 4.7,
+        "provider_id": 9,"price": "600$"
+      },
+      {
+        "id": 7,
+        "title": "color consultation",
+        "image": "https://avatars.mds.yandex.net/i?id=cf53792cb900b76bdabe0e6cd7b7d35858a315dc-9167398-images-thumbs&n=13",
+        "rating": 4.7,
+        "provider_id": 9,"price": "600$"
+      }
+    ]
+  }
+  

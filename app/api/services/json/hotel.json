@@ -1,0 +1,62 @@
+{
+  "message": "hotel fetch sucessfully",
+  "services": [
+    {
+      "id": 1,
+      "title": "Accommodation",
+      "image": "https://avatars.mds.yandex.net/i?id=e5ff95b125a06d317f58d8e4a559b37f-4146177-images-thumbs&n=13",
+      "rating": 4.5,
+      "description": "",
+      "provider_id": 3,"price": "600$"
+    },
+    {
+      "id": 2,
+      "title": "food and beverage",
+      "image": " https://avatars.mds.yandex.net/i?id=216ebfa20887e88b13428b3bd7d87f8b282604bc-9068831-images-thumbs&n=13",
+      "rating": 4.8,
+      "provider_id": 3,"price": "600$"
+    },
+    {
+      "id": 3,
+      "title": " Amenities and activities",
+      "image": "https://avatars.mds.yandex.net/i?id=190178bebbbdcd85dc92d93a649956e1749d56be-9837529-images-thumbs&n=13",
+      "rating": 4.7,
+      "provider_id": 3,"price": "600$"
+    },
+    {
+      "id": 4,
+      "title": "Bussiness services",
+      "image": "https://avatars.mds.yandex.net/i?id=aef8e6ec608a2d73741cff05355fbb06aede0a86-10122878-images-thumbs&n=13",
+      "rating": 4.5,
+      "provider_id": 3,"price": "600$"
+    },
+    {
+      "id": 5,
+      "title": "Concierge services",
+      "image": "https://avatars.mds.yandex.net/i?id=7f479de0ec002cd5ff99df62999b337f37a078de-10850463-images-thumbs&n=13",
+      "rating": 4.8,
+      "provider_id": 3,"price": "600$"
+    },
+    {
+      "id": 6,
+      "title": "Pet-friendly services",
+      "image": "https://avatars.mds.yandex.net/i?id=d8a97ca839a244325845d4140ecde7bda24368f1-8456088-images-thumbs&n=13",
+      "rating": 4.7,
+      "provider_id": 3,"price": "600$"
+    },
+    {
+      "id": 7,
+      "title": "Spa services",
+      "image": "https://avatars.mds.yandex.net/i?id=57bb4b8c38f67ce02f2eba01768ff497-5274714-images-thumbs&n=13",
+      "rating": 4.7,
+      "provider_id": 3,"price": "600$"
+    },
+    {
+      "id": 8,
+      "title": "Conference and meeting  services",
+      "image": "https://avatars.mds.yandex.net/i?id=0bbc572a287bb8b4db0d619c2f05f900-5886522-images-thumbs&n=13",
+      "rating": 4.7,
+      "provider_id": 3,"price": "600$"
+    }
+  ]
+}
