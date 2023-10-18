@@ -1,7 +1,8 @@
 import { database } from "@/app/database/db";
-import { login } from "@/app/modal/loginModal";
+
 import { NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
+import login from "@/app/modal/loginModal";
 database();
 export async function POST(request) {
   const { email, password } = await request.json();
