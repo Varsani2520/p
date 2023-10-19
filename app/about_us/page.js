@@ -21,11 +21,11 @@ export default function About() {
           {about.map((response) => (
             <div key={response.id}>
               <div className=" w-full opacity-[0.5]">
-                <img src={response.src} className="w-[1500px]" />
+                <img src={response.src} className="w-[1500px]" alt="hlo"/>
               </div>
               <div className="grid grid-cols-2 gap-2 mt-[-0px] relative ml-[10px] ">
                 <div>
-                  <img src={response.image} alt="hi"></img>
+                  <img src={response.image} alt="hi" />
                 </div>
 
                 <div>

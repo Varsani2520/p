@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
@@ -10,7 +11,7 @@ export default function Navbar() {
       <nav className="bg-green-300  fixed w-full z-20 top-0 left-0 border-b  ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center">
-            <img src="https://img.freepik.com/premium-vector/furniture-interior-logo-real-estate_332533-447.jpg" className="h-8 mr-3" alt="designer" />
+            <Image src="https://img.freepik.com/premium-vector/furniture-interior-logo-real-estate_332533-447.jpg" className="h-8 mr-3" alt="designer" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap ">
               Flowbite
             </span>

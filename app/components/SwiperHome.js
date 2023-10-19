@@ -17,6 +17,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { useEffect, useState } from "react";
 import { HomeService } from "../service/HomeService";
+import Image from "next/image";
 const SwiperHome = () => {
   const [swiper, setSwiper] = useState([]);
   const [title, setTitle] = useState([]);
@@ -47,7 +48,7 @@ const SwiperHome = () => {
           console.log(response.id);
           return (
             <SwiperSlide key={response.id}>
-              <img
+              <Image
                 src={response.src}
                 alt="hlo"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
