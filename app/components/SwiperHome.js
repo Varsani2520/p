@@ -48,7 +48,7 @@ const SwiperHome = () => {
           console.log(response.id);
           return (
             <SwiperSlide key={response.id}>
-              <Image
+              <img
                 src={response.src}
                 alt="hlo"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
