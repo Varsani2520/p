@@ -31,7 +31,7 @@ const page = () => {
               
               {hlo.map((response) => {
                 if (DetailCard == response.id)
-                  return <>
+                  return <div key={response.id}>
                   <div className="grid grid-cols-2 mt-20 mb-10   justify-center gap-10">
           <div className="w-full max-w-screen-lg">
           <img src={response.image} className="h-96"/>
@@ -75,7 +75,7 @@ const page = () => {
             </>
           </div>
           </div>
-                  </>
+                  </div>
               })}
             
           

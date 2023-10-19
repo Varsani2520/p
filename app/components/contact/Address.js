@@ -27,16 +27,16 @@ const Address = () => {
         <div className="max-w-screen-md  items-center justify-between ">
           {title.map((response) => {
             return (
-              <>
+              <div key={response.id}>
                 <div className="font-serif text-5xl py-10 pl-20">{response.title}</div><hr/>
-              </>
+              </div>
             );
           })}
           {address.map((response) => {
             return (
-              <div className="flex pt-5">
+              <div className="flex pt-5" key={response.id}>
                 <div className="pl-10">
-                  <img src={response.icon} height={50} width={50}/>
+                  <img src={response.icon} height={50} width={50} alt="hlo"/>
                 </div>
                 <div className="text-2xl">{response.content}</div>
               </div>

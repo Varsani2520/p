@@ -58,11 +58,11 @@ const SwiperHome = () => {
       </Swiper>
       {title.map((response) => {
         return (
-          <>
+          <div key={response.id}>
             <h1 class=" text-2xl font-bold text-gray-900  mt-20 mb-10 text-center justify-center ">
               <span class="text-gray-600  mt-5 ">{response.title}</span>
             </h1>
-          </>
+          </div>
         );
       })}
     </div>

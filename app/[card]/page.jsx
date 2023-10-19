@@ -26,7 +26,7 @@ const page = () => {
       <div className="max-w-screen-xl items-center justify-between  p-4">
         <div className="grid grid-cols-3 mt-20 mb-10   justify-center ">
           {desc.map((service) => (
-            <>
+            <div key={service.id}>
             
               <div className=" max-w-lg  bg-white border border-gray-200 rounded-lg shadow   mb-5 ml-2">
                 
@@ -105,7 +105,7 @@ const page = () => {
                   </div>
                 </div>
               </div>
-            </>
+            </div>
           ))}
         </div>
       </div>
