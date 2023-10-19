@@ -21,21 +21,14 @@ const HomeCard = () => {
   const dispatch = useDispatch();
   return (
     <div className="grid grid-cols-2 mt-10 mb-10   justify-center ">
-      <button
-        className="bg-black"
-        onClick={() => {
-          dispatch(incrementTotal());
-        }}
-      >
-        count
-      </button>
+     
       {card.map((response) => {
         return (
           <div
             className=" max-w-lg p-6 bg-white border border-gray-200 rounded-lg shadow    mb-20 ml-16"
             key={response.id}
           >
-            <Image src={response.img} alt="hlo"/>
+            <img src={response.img} alt="hlo"/>
             <a href="#">
               <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 ">
                 {response.title}
