@@ -1,6 +1,6 @@
-const { combineReducers } = require("redux");
-const { counterReducer } = require("./counter");
+import { combineReducers } from "redux";
+import { cartReducer } from "./cart";
 
-export const rootReducer=combineReducers({
-    total:counterReducer
-})
+export const rootReducer = combineReducers({
+  cart: cartReducer,
+});

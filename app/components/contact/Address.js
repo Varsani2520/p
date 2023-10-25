@@ -1,6 +1,6 @@
 "use client";
 import { ContactAddressService } from "@/app/service/contact/ContactAddress";
-import Image from "next/image";
+// import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 const Address = () => {
@@ -37,7 +37,7 @@ const Address = () => {
             return (
               <div className="flex pt-5" key={response.id}>
                 <div className="pl-10">
-                  <Image src={response.icon} height={50} width={50} alt="hlo"/>
+                  <img src={response.icon} height={50} width={50} alt="hlo"/>
                 </div>
                 <div className="text-2xl">{response.content}</div>
               </div>

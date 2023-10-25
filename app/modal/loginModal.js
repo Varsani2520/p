@@ -1,6 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 
-const loginModel = Schema({
+const LoginModal = Schema({
   email: String,
   password: String,
 });
@@ -10,8 +10,8 @@ let login;
 if (login) {
   login = mongoose.model("loginss");
 } else {
-  mongoose.model("loginss", loginModel);
+  mongoose.model("loginss", LoginModal);
 }
 // export const login = mongoose.model("login") || mongoose.model("login",loginModel)
 export { login };
-export default loginModel;
+export default LoginModal;

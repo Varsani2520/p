@@ -1,7 +1,11 @@
 "use client";
+
+import { ToastContainer, toast } from "react-toastify";
+
 export default function Footer() {
   return (
     <div className=" top-0 left-0 mt-2 justify-center items-center flex bg-white dark:bg-gray-900">
+      <ToastContainer/>
       <div className="max-w-screen-xl  items-center justify-between  p-4">
         <footer className="bg-white dark:bg-gray-900">
           <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -41,6 +45,7 @@ export default function Footer() {
                       <a
                         href="https://discord.gg/4eeurUVvTy"
                         className="hover:underline"
+                       
                       >
                         Office Interior
                       </a>
