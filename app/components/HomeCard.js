@@ -21,7 +21,6 @@ const HomeCard = () => {
   const dispatch = useDispatch();
   return (
     <div className="grid grid-cols-2 mt-10 mb-10   justify-center ">
-      
       {card.map((response) => {
         return (
           <div
