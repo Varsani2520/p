@@ -11,7 +11,7 @@ const page = () => {
     
   }
   return (
-    <div className="mt-20">
+    <div className="mt-20 justify-center ">
        {carts.length === 0 ? (
         <img src="https://w7.pngwing.com/pngs/277/965/png-transparent-empty-cart-illustration-thumbnail.png" alt="empty cart img"/>
       ) : (

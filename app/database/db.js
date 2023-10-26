@@ -1,10 +1,9 @@
 import mongoose from "mongoose"
 
-export const MONGO_URL="mongodb+srv://Rni:Rni@cluster0.avoq4cu.mongodb.net/"
 export const database=()=>{
     
     try {
-        mongoose.connect(MONGO_URL,{
+        mongoose.connect(process.env.MONGO,{
             dbName:'project1'
         })
         console.log("database connected successfully")
