@@ -21,7 +21,7 @@ const Address = () => {
   useEffect(() => {
     Title();
     Address();
-  });
+  },[]);
   return (
     <>
       <div className=" top-0 ml-[450px] mt-16 justify-center items-center pb-[160px] bg-[#ececec] text-gray-600">

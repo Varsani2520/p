@@ -45,23 +45,25 @@ const SwiperHome = () => {
         autoplay={{ delay: 2500, disableOnInteraction: false }}
       >
         {swiper.map((response) => {
-          console.log(response.id);
           return (
-            <SwiperSlide key={response.id}>
+            <div  key={response.title}>
+
+            <SwiperSlide>
               <img
                 src={response.src}
                 alt="hlo"
                 style={{ objectFit: "cover", height: "100%", width: "100%" }}
-              />
+                />
             </SwiperSlide>
+                </div>
           );
         })}
       </Swiper>
       {title.map((response) => {
         return (
           <div key={response.id}>
-            <h1 class=" text-2xl font-bold text-gray-900  mt-20 mb-10 text-center justify-center ">
-              <span class="text-gray-600  mt-5 ">{response.title}</span>
+            <h1 className=" text-2xl font-bold text-gray-900  mt-20 mb-10 text-center justify-center ">
+              <span className="text-gray-600  mt-5 ">{response.title}</span>
             </h1>
           </div>
         );
