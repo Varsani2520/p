@@ -1,7 +1,7 @@
 import { database } from "@/app/database/db";
-import { NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
 import LoginModal from "@/app/modal/LoginModal";
+import {NextResponse} from 'next/server'
 database();
 export async function POST(request) {
   const { email, password } = await request.json();
@@ -19,5 +19,7 @@ export async function POST(request) {
     console.log("user login error", error);
   }
 
-  return NextResponse.json(response);
+  return NextResponse.json({
+    login:'success'
+  });
 }

@@ -1,20 +1,17 @@
 "use client";
 import { addToCartItem, incrementTotal } from "@/app/action/action";
 import { ProviderService } from "@/app/service/ProviderService";
-import { addRequestMeta } from "next/dist/server/request-meta";
 import { useParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { ToastContainer, toast } from "react-toastify";
 const page = () => {
-  const carts=useSelector((state)=>state.cart.cartItems)
+  const carts = useSelector((state) => state.cart.cartItems);
   const [hlo, setHlo] = useState([]);
-  const [cart, setCart] = useState(0);
   const { card } = useParams();
   const { DetailCard } = useParams();
-  console.log(card);
-  console.log("d", DetailCard);
-  const dispatch=useDispatch()
+
+  const dispatch = useDispatch();
   async function Providers() {
     try {
       const response = await ProviderService(card);
@@ -23,10 +20,10 @@ const page = () => {
       console.log(error);
     }
   }
-  function hello(item){
-console.log(item);
-dispatch(addToCartItem(item))
-toast.success("add to cart success")
+  function hello(item) {
+    dispatch(addToCartItem(item));
+    toast.success("add to cart success");
+    dispatch.incrementTotal(item);
   }
   useEffect(() => {
     Providers();
@@ -34,9 +31,8 @@ toast.success("add to cart success")
 
   return (
     <div className="top-0 left-0 justify-center items-center flex bg-white">
-      <ToastContainer/>
+      <ToastContainer />
       <div className="max-w-screen-xl items-center justify-between  p-4">
-        
         {hlo.map((response) => {
           if (DetailCard == response.id)
             return (
@@ -47,7 +43,8 @@ toast.success("add to cart success")
                     <button
                       type="button"
                       className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "
-                    onClick={()=>hello(response)}>
+                      onClick={() => hello(response)}
+                    >
                       Add to Cart
                     </button>
                     <button

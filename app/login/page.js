@@ -4,12 +4,15 @@ import { useState } from "react";
 import { service } from "../service/login/loginService";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useDispatch } from "react-redux";
+import { userAuthenticationSucess } from "../action/action";
 
 export default function page() {
   const [loginData, setLoginData] = useState({
     email: "",
     password: "",
   });
+const dispatch=useDispatch()
 
  
   async function handleSubmit(e) {
@@ -27,6 +30,7 @@ export default function page() {
       console.log(result);
       // const response = await result.save()
       toast.success("Logged in successfully!");
+      dispatch(userAuthenticationSucess(result))
       if(typeof window !== "undefined"){
         // window.location.assign("/")
       }
