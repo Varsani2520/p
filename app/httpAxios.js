@@ -2,7 +2,7 @@ import axios from "axios";
 import {useSelector} from 'react-redux'
 // helps to use api with baseurl
 export const httpAxios = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://p-dqmu.vercel.app/",
 });
 
 export const userVerified=()=>{
